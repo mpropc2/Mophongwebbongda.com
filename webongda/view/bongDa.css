@@ -1,0 +1,464 @@
+img{
+	width:620px;
+	height:330px;
+}
+
+.imgfacebook{
+	width:25px;
+	height:25px
+}
+
+.imgfeed{
+	width:25px;
+	height:25px
+}
+
+.left li h3 {
+	font-size:14px;	
+}
+
+.noiDung ul{
+	list-style-type:none;
+}
+
+.baiviet_hinh {
+	height:75px;	
+}
+
+.widget-title {
+    color: #b21117;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 5px solid #333;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.left{
+	float:left;	
+	list-style-image:url(./view/pictures/ul_list.png);
+}
+
+.left li {
+	padding-bottom:10px;
+	border-bottom:1px solid #CCC;
+	padding-top:10px;	
+}
+
+.left li a{
+	color:#000;
+	text-decoration:none;
+}
+
+.left li a:hover{
+	color:#2a6499;
+}
+
+#site-logo{
+	width:200px;
+	height:84px;
+}
+
+.searchbox{
+	background:#c21e1e;
+	color:#FFF;
+}
+
+.navbar-default {
+    background-color: #c21e1e;
+    border-color: #c21e1e;
+}
+
+.navbar-default .navbar-nav > li > a {
+   color: white; /*Change active text color here*/
+   font-weight:bold;
+}
+
+.module {
+  width: 620px;
+  height: 330px;
+  position: relative;
+  margin: 20px;
+}
+.module > header {
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  width: 100%;
+  padding: 5px 5px;
+
+}
+
+.module > .duoiheader {
+	position: absolute;
+  	bottom: 0px;
+  	left: 0;
+ 	width: 100%;
+  	padding: 17.7px 5px;
+	background: rgba(0, 0, 0, 0.7)
+}
+
+.module > .duoiheader > h5 {
+	margin: 0;
+	color: white;
+ 	position: relative;
+	z-index: 1;
+}
+
+.module > header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8)
+}
+.module > header > h3 {
+  margin: 0;
+  font-size:22px;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.baiviet {
+	text-decoration:none;	
+}
+
+.baiviet20 {
+	list-style-type:none;
+	margin-left:-40px;
+}
+
+.baiviet20 li a{
+	color:#000;
+	text-decoration:none;
+}
+
+.baiviet20 li a:hover{
+	color:#2a6499;
+}
+
+.baiviet20 li div a:hover{
+	color:#2a6499;
+}
+
+.baiviet20 li {
+	padding-bottom:10px;
+	border-bottom:1px solid #CCC;
+	padding-top:10px;
+}
+
+.menutop li:hover{
+	background-color:#CCC;	
+}
+
+.menutop li {
+	margin-top:5px;
+}
+
+#baivietdau {
+	background-image:url(./view/pictures/PHOTO_ICON-1.png);
+	background-repeat:no-repeat;
+}
+
+.image-li {
+	width:90px;
+	height:60px;
+	list-style-type:none;	
+}
+
+.thoigian {
+	right: 10px;
+    bottom: 5px;
+    margin: 0;
+    color: #AAA;
+    float: right;
+    font-size: 10px;
+
+	font-size:80%
+}
+
+.image-image {
+	width:16px;
+	height:16px;
+	margin-top:-4px;
+}
+
+.image-left{
+	width:138px;
+	height:95px;
+}
+
+.grid-image {
+	list-style-type:none;
+	margin-left:-53px;
+}
+
+a.title-left {
+	font-size:22px;
+	text-decoration:none;	
+	color:#333;
+}
+
+a.title-right {
+	color:#000;
+	text-decoration:none;
+}
+
+.category-icon {
+	width:16px;
+	height:16px;	
+}
+
+/*menu top*/
+#fixNav{
+  width: 100%;
+  height: 40px;
+  background-color: #c21e1e;
+  display: none;  
+  position:fixed;
+  top:0px;
+  left:0px;
+  z-index: 100000; /*Hiển thị lớp trên cùng*/
+
+}
+#fixNav ul{
+  margin: 0;
+  padding: 0;
+
+}
+#fixNav ul li{
+  list-style:none inside;
+  width: auto;
+  float: left;
+  line-height: 40px; /*Cho text canh giữa menu*/
+  color: #fff;
+  padding: 0;
+  margin-right:10px;
+  position: relative;
+
+}
+#fixNav ul li a{
+  text-transform: uppercase;
+  white-space: nowrap; /*Cho chữ trong menu không bị wrap*/
+  padding: 0 10px;
+  color: #fff;
+  display: block;
+  font-size: 0.9em;
+  text-decoration: none;
+  font-weight:bold;
+}
+
+#fixNav ul li a:hover{
+  color:#000;
+}
+
+/*CSS Style cho Submenu*/
+#fixNav ul li ul {
+  position: absolute;
+  width: auto;
+  display: none;
+  background-color: #CCC;
+  z-index: 100000;
+}
+ 
+#fixNav ul li ul li{
+  display: block;
+  padding:0;
+  margin: 0;
+  float: none; /*Bỏ float cho li cấp thứ 2*/
+  border-bottom:1px solid #999;
+}
+
+/* Hover cho submenu */
+#fixNav ul li:hover {
+  /* Hover thì li sẽ đổi màu*/
+  background-color:#CCC;
+}
+#fixNav ul li:hover ul{
+  /*Display ra submenu*/
+  display: block;
+}
+
+/*menu 2 hiển thị*/
+#fixNav1{
+  width: 100%;
+  height: 40px;
+  background-color: #c21e1e;
+  display: block;  
+  z-index: 100000; /*Hiển thị lớp trên cùng*/
+
+}
+#fixNav1 ul{
+  margin: 0;
+  padding: 0;
+
+}
+#fixNav1 ul li{
+  list-style:none inside;
+  width: auto;
+  float: left;
+  line-height: 40px; /*Cho text canh giữa menu*/
+  color: #fff;
+  padding: 0;
+  margin-right:10px;
+  position: relative;
+
+}
+#fixNav1 ul li a{
+  text-transform: uppercase;
+  white-space: nowrap; /*Cho chữ trong menu không bị wrap*/
+  padding: 0 10px;
+  color: #fff;
+  display: block;
+  font-size: 0.9em;
+  text-decoration: none;
+  font-weight:bold;
+}
+
+#fixNav1 ul li a:hover{
+  color:#000;
+}
+
+/*CSS Style cho Submenu*/
+#fixNav1 ul li ul {
+  position: absolute;
+  width: auto;
+  display: none;
+  background-color: #CCC;
+  z-index: 100000;
+}
+ 
+#fixNav1 ul li ul li{
+  display: block;
+  padding:0;
+  margin: 0;
+  float: none; /*Bỏ float cho li cấp thứ 2*/
+  border-bottom:1px solid #999;
+}
+
+/* Hover cho submenu */
+#fixNav1 ul li:hover {
+  /* Hover thì li sẽ đổi màu*/
+  background-color:#CCC;
+}
+#fixNav1 ul li:hover ul{
+  /*Display ra submenu*/
+  display: block;
+}
+
+ul.widget-container {
+	list-style-type:none;
+	margin-left:-55px;	
+}
+
+img.category-icon-photo {
+	padding-top:5px;
+	width:25px;
+	height:25px;
+}
+
+.thumbnail {
+	width:135px;
+}
+
+img.bantin-left{
+	width:300px;
+	height:160px;	
+}
+
+img.rss {
+	border:0px;
+	width:14px;
+	height:14px;
+}
+
+.rsswidget {
+	text-decoration:none;
+	color:#333;
+	margin-left:-5px;
+}
+
+.rsswidget:hover {
+	color:#2a6496;
+	text-decoration:none;	
+}
+
+.trenthegioi {
+	margin-left:-25px;
+	content: "• ";
+    color:#c21e1e;
+}
+
+.trenthegioi li {
+	padding-bottom:4px;
+}
+
+div.widget-top .widget-title .rsswidget {
+	margin-left:3px;	
+}
+
+.letsop-tab-inactive{
+	color:#999 !important;
+	text-decoration: none;
+	font-size:13px;
+	color: #999;
+}
+		
+.letsop-title{
+	text-align:left;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size:18px;
+	color: #b21117;
+	border-bottom: 3px solid #333;
+}
+		
+#letsop-widget-fixtures-content,
+#letsop-widget-standing,
+#letsop-widget-recent-fixtures-content{
+	max-height:310px;
+	overflow:auto;
+}
+		
+h3.widget-title:empty {
+	border: none;
+}
+		
+@media all and (max-width: 768px){
+	h2.letsop-title*{
+		font-size:11px;font-family:'helvetica-idesignVn'
+	}
+}
+
+.letsop-leagues-selector {
+	width:100%;
+	height:34px;
+}
+
+select
+{
+    display: inline-block;
+    width: 150px;
+    height: 20px;
+    padding: 3px 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555555;
+    vertical-align: middle;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+#page-footer{
+	color:white;
+	width:100%;
+	background-color:#282a2b;
+	padding-bottom:15px;
+	height:210px;
+	border-top:6px solid #CCC;
+}
